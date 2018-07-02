@@ -8,8 +8,8 @@ public class DataUrl {
     https://xueqiu.com/stock/forchartk/stocklist.json?symbol=SH600011&period=1day&type=before&begin=1478620800000&end=1530500168000&_=1510126200000
     雪球网申请资源
     api申请前必须访问一次雪球网首页https://xueqiu.com
-    时间为毫秒级时间戳
-    2016-01-01=1451577600000
+
+    2016-01-01=1451577600000时间为毫秒级时间戳
     2018-06-22=1529596800000
     */
 
