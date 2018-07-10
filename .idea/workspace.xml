@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f378bf9-eac3-44cc-86ab-c7a98e64f494" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/KLineData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/KLineData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,75 +17,45 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-565">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="1122">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="665">
-                <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="DaylineMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/dao/DaylineMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="330">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="release.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/release.properties">
+      <file leaf-file-name="DaoDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DaoDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockDataXueqiu.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StockDataXueqiu.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="DataPo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataPo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KLineData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/KLineData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+            <state relative-caret-position="572">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,16 +63,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataUrl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataUrl.java">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="858">
+              <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dayline.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/model/po/Dayline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2728">
+              <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaylineExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/model/po/DaylineExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaylineMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/DaylineMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2398">
+              <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_520it</find>
+      <find>selectByExample</find>
+      <find>PropertyPlaceholderConfigurer</find>
+      <find>mybatis-spring</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,11 +149,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/setting.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataUrl.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/KLineData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/mybatis/domain/Dayline.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/dao/DaylineMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/model/po/Dayline.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/DaylineMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DaoDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -137,18 +192,13 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="StockDataXueqiu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="StockDataXueqiu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="StockDataXueqiu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="release" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
@@ -158,10 +208,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="90" />
+    <option name="x" value="138" />
     <option name="y" value="-20" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1411" />
+    <option name="height" value="946" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -171,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,13 +255,53 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="StockDataXueqiu" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StockDataXueqiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockDataXueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StockDataXueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockDataXueqiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockDataXueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StockDataXueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockDataXueqiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockDataXueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockDataXueqiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockDataXueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StockDataXueqiu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockDataXueqiu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,6 +316,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\StockDataXueqiu\src\main\resources" />
       <recent name="E:\idea\StockDataXueqiu\src\main\java\com\slionh\StockDataXueqiu" />
     </key>
   </component>
@@ -240,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DaoDemo.dd">
     <configuration name="DataDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.slionh.StockDataXueqiu.DataDemo" />
       <module name="StockDataXueqiu" />
@@ -254,6 +346,52 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DaoDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StockDataXueqiu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.slionh.StockDataXueqiu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.slionh.StockDataXueqiu" />
+      <option name="MAIN_CLASS_NAME" value="com.slionh.StockDataXueqiu.DaoDemo" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DaoDemo.dd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StockDataXueqiu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.slionh.StockDataXueqiu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.slionh.StockDataXueqiu" />
+      <option name="MAIN_CLASS_NAME" value="com.slionh.StockDataXueqiu.DaoDemo" />
+      <option name="METHOD_NAME" value="dd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -293,8 +431,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.DataDemo" />
+      <item itemvalue="JUnit.DaoDemo.dd" />
+      <item itemvalue="JUnit.DaoDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DaoDemo.dd" />
+        <item itemvalue="JUnit.DaoDemo" />
         <item itemvalue="Application.DataDemo" />
       </list>
     </recent_temporary>
@@ -310,12 +455,46 @@
       <option name="presentableId" value="Default" />
       <updated>1530518847054</updated>
       <workItem from="1530518850428" duration="1641000" />
-      <workItem from="1530530125669" duration="2697000" />
+      <workItem from="1530530125669" duration="13399000" />
+      <workItem from="1530586708499" duration="12000" />
+      <workItem from="1530600310787" duration="756000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DaoDemo_dd - 2018.07.03 at 00h 00m 22s.xml">
+      <configuration name="DaoDemo.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoDemo_dd - 2018.07.03 at 00h 04m 21s.xml">
+      <configuration name="DaoDemo.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoDemo_dd - 2018.07.03 at 00h 07m 14s.xml">
+      <configuration name="DaoDemo.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoDemo_dd - 2018.07.03 at 00h 11m 04s.xml">
+      <configuration name="DaoDemo.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoDemo_dd - 2018.07.03 at 00h 13m 16s.xml">
+      <configuration name="DaoDemo.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoDemo_dd - 2018.07.03 at 00h 36m 34s.xml">
+      <configuration name="DaoDemo.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoDemo - 2018.07.03 at 00h 38m 20s.xml">
+      <configuration name="DaoDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoDemo_dd - 2018.07.03 at 00h 43m 46s.xml">
+      <configuration name="DaoDemo.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoDemo_dd - 2018.07.03 at 00h 43m 57s.xml">
+      <configuration name="DaoDemo.dd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoDemo_dd - 2018.07.03 at 00h 44m 41s.xml">
+      <configuration name="DaoDemo.dd" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4338000" />
+    <option name="totallyTimeSpent" value="15808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -323,7 +502,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289183" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -331,12 +509,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.2607296" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52207506" />
+      <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.8200883" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25375536" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26126608" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -345,6 +524,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289183" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -358,6 +538,152 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/dao/DaylineMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/model/po/Dayline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2728">
+          <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/model/po/DaylineExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/DaylineMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DaoDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/dao/DaylineMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/model/po/Dayline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4488">
+          <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/model/po/DaylineExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/DaylineMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DaoDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -393,9 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -407,6 +730,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setting.xml" />
+    <entry file="file://$PROJECT_DIR$/StockDataXueqiu.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="423">
+            <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/release.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -414,61 +757,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StockDataXueqiu.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/mybatis/mapper/DaylineMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/mybatis/domain/Dayline.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+        <state relative-caret-position="76">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="396">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="665">
-            <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/KLineData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataPo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataUrl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataPo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/KLineData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DataDemo.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/model/po/DaylineExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/DaylineMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/dao/DaylineMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/model/po/Dayline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2728">
+          <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/slionh/StockDataXueqiu/DaoDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

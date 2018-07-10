@@ -31,7 +31,7 @@ public class KLineData {
         return content;
     }
 //    List<DataPo>
-    public static List<DataPo> getDayKLineObjects(String url) {
+    public static List<DataPo> getDayKLineObjects(String url,String stockId) {
         CloseableHttpClient httpclient = HttpClients.createDefault();
         String content="";
         content = getString(url, httpclient, content);
@@ -73,7 +73,7 @@ public class KLineData {
                      low,  chg,  percent,  turnrate,
                      ma5,  ma10,  ma20,  ma30,
                      dif,  dea,  macd,
-                     lot_volume,  timestamp,  time);
+                     lot_volume,  timestamp,  time, stockId);
             list.add(dataPo);
         }
 

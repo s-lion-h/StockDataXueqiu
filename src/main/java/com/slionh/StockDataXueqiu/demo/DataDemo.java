@@ -1,4 +1,8 @@
-package com.slionh.StockDataXueqiu;
+package com.slionh.StockDataXueqiu.demo;
+
+import com.slionh.StockDataXueqiu.DataPo;
+import com.slionh.StockDataXueqiu.DataUrl;
+import com.slionh.StockDataXueqiu.KLineData;
 
 import java.util.List;
 
@@ -12,7 +16,7 @@ public class DataDemo {
 
 //        System.out.println(KLineData.getDayKLine(url));
 
-        List<DataPo> list=KLineData.getDayKLineObjects(url);
+        List<DataPo> list=KLineData.getDayKLineObjects(url,"SH600011");
         for (DataPo dataPo:list){
             System.out.println(dataPo.toString());
         }

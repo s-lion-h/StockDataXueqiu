@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.slionh.StockDataXueqiu.dao.DaylineMapper" >
+  <resultMap id="BaseResultMap" type="com.slionh.StockDataXueqiu.model.po.Dayline" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="stockId" property="stockid" jdbcType="VARCHAR" />
+    <result column="volume" property="volume" jdbcType="INTEGER" />
+    <result column="open" property="open" jdbcType="DOUBLE" />
+    <result column="high" property="high" jdbcType="DOUBLE" />
+    <result column="close" property="close" jdbcType="DOUBLE" />
+    <result column="low" property="low" jdbcType="DOUBLE" />
+    <result column="chg" property="chg" jdbcType="DOUBLE" />
+    <result column="percent" property="percent" jdbcType="DOUBLE" />
+    <result column="turnrate" property="turnrate" jdbcType="DOUBLE" />
+    <result column="ma5" property="ma5" jdbcType="DOUBLE" />
+    <result column="ma10" property="ma10" jdbcType="DOUBLE" />
+    <result column="ma20" property="ma20" jdbcType="DOUBLE" />
+    <result column="ma30" property="ma30" jdbcType="DOUBLE" />
+    <result column="dif" property="dif" jdbcType="DOUBLE" />
+    <result column="dea" property="dea" jdbcType="DOUBLE" />
+    <result column="macd" property="macd" jdbcType="DOUBLE" />
+    <result column="lot_volume" property="lotVolume" jdbcType="INTEGER" />
+    <result column="timestamp" property="timestamp" jdbcType="VARCHAR" />
+    <result column="time" property="time" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, stockId, volume, open, high, close, low, chg, percent, turnrate, ma5, ma10, ma20, 
+    ma30, dif, dea, macd, lot_volume, timestamp, time
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.slionh.StockDataXueqiu.model.po.DaylineExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from DayLine
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from DayLine
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from DayLine
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.slionh.StockDataXueqiu.model.po.DaylineExample" >
+    delete from DayLine
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.slionh.StockDataXueqiu.model.po.Dayline" >
+    insert into DayLine (id, stockId, volume, 
+      open, high, close, low, 
+      chg, percent, turnrate, 
+      ma5, ma10, ma20, ma30, 
+      dif, dea, macd, lot_volume, 
+      timestamp, time)
+    values (#{id,jdbcType=INTEGER}, #{stockid,jdbcType=VARCHAR}, #{volume,jdbcType=INTEGER}, 
+      #{open,jdbcType=DOUBLE}, #{high,jdbcType=DOUBLE}, #{close,jdbcType=DOUBLE}, #{low,jdbcType=DOUBLE}, 
+      #{chg,jdbcType=DOUBLE}, #{percent,jdbcType=DOUBLE}, #{turnrate,jdbcType=DOUBLE}, 
+      #{ma5,jdbcType=DOUBLE}, #{ma10,jdbcType=DOUBLE}, #{ma20,jdbcType=DOUBLE}, #{ma30,jdbcType=DOUBLE}, 
+      #{dif,jdbcType=DOUBLE}, #{dea,jdbcType=DOUBLE}, #{macd,jdbcType=DOUBLE}, #{lotVolume,jdbcType=INTEGER}, 
+      #{timestamp,jdbcType=VARCHAR}, #{time,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.slionh.StockDataXueqiu.model.po.Dayline" >
+    insert into DayLine
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="stockid != null" >
+        stockId,
+      </if>
+      <if test="volume != null" >
+        volume,
+      </if>
+      <if test="open != null" >
+        open,
+      </if>
+      <if test="high != null" >
+        high,
+      </if>
+      <if test="close != null" >
+        close,
+      </if>
+      <if test="low != null" >
+        low,
+      </if>
+      <if test="chg != null" >
+        chg,
+      </if>
+      <if test="percent != null" >
+        percent,
+      </if>
+      <if test="turnrate != null" >
+        turnrate,
+      </if>
+      <if test="ma5 != null" >
+        ma5,
+      </if>
+      <if test="ma10 != null" >
+        ma10,
+      </if>
+      <if test="ma20 != null" >
+        ma20,
+      </if>
+      <if test="ma30 != null" >
+        ma30,
+      </if>
+      <if test="dif != null" >
+        dif,
+      </if>
+      <if test="dea != null" >
+        dea,
+      </if>
+      <if test="macd != null" >
+        macd,
+      </if>
+      <if test="lotVolume != null" >
+        lot_volume,
+      </if>
+      <if test="timestamp != null" >
+        timestamp,
+      </if>
+      <if test="time != null" >
+        time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="stockid != null" >
+        #{stockid,jdbcType=VARCHAR},
+      </if>
+      <if test="volume != null" >
+        #{volume,jdbcType=INTEGER},
+      </if>
+      <if test="open != null" >
+        #{open,jdbcType=DOUBLE},
+      </if>
+      <if test="high != null" >
+        #{high,jdbcType=DOUBLE},
+      </if>
+      <if test="close != null" >
+        #{close,jdbcType=DOUBLE},
+      </if>
+      <if test="low != null" >
+        #{low,jdbcType=DOUBLE},
+      </if>
+      <if test="chg != null" >
+        #{chg,jdbcType=DOUBLE},
+      </if>
+      <if test="percent != null" >
+        #{percent,jdbcType=DOUBLE},
+      </if>
+      <if test="turnrate != null" >
+        #{turnrate,jdbcType=DOUBLE},
+      </if>
+      <if test="ma5 != null" >
+        #{ma5,jdbcType=DOUBLE},
+      </if>
+      <if test="ma10 != null" >
+        #{ma10,jdbcType=DOUBLE},
+      </if>
+      <if test="ma20 != null" >
+        #{ma20,jdbcType=DOUBLE},
+      </if>
+      <if test="ma30 != null" >
+        #{ma30,jdbcType=DOUBLE},
+      </if>
+      <if test="dif != null" >
+        #{dif,jdbcType=DOUBLE},
+      </if>
+      <if test="dea != null" >
+        #{dea,jdbcType=DOUBLE},
+      </if>
+      <if test="macd != null" >
+        #{macd,jdbcType=DOUBLE},
+      </if>
+      <if test="lotVolume != null" >
+        #{lotVolume,jdbcType=INTEGER},
+      </if>
+      <if test="timestamp != null" >
+        #{timestamp,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null" >
+        #{time,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.slionh.StockDataXueqiu.model.po.DaylineExample" resultType="java.lang.Integer" >
+    select count(*) from DayLine
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update DayLine
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.stockid != null" >
+        stockId = #{record.stockid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.volume != null" >
+        volume = #{record.volume,jdbcType=INTEGER},
+      </if>
+      <if test="record.open != null" >
+        open = #{record.open,jdbcType=DOUBLE},
+      </if>
+      <if test="record.high != null" >
+        high = #{record.high,jdbcType=DOUBLE},
+      </if>
+      <if test="record.close != null" >
+        close = #{record.close,jdbcType=DOUBLE},
+      </if>
+      <if test="record.low != null" >
+        low = #{record.low,jdbcType=DOUBLE},
+      </if>
+      <if test="record.chg != null" >
+        chg = #{record.chg,jdbcType=DOUBLE},
+      </if>
+      <if test="record.percent != null" >
+        percent = #{record.percent,jdbcType=DOUBLE},
+      </if>
+      <if test="record.turnrate != null" >
+        turnrate = #{record.turnrate,jdbcType=DOUBLE},
+      </if>
+      <if test="record.ma5 != null" >
+        ma5 = #{record.ma5,jdbcType=DOUBLE},
+      </if>
+      <if test="record.ma10 != null" >
+        ma10 = #{record.ma10,jdbcType=DOUBLE},
+      </if>
+      <if test="record.ma20 != null" >
+        ma20 = #{record.ma20,jdbcType=DOUBLE},
+      </if>
+      <if test="record.ma30 != null" >
+        ma30 = #{record.ma30,jdbcType=DOUBLE},
+      </if>
+      <if test="record.dif != null" >
+        dif = #{record.dif,jdbcType=DOUBLE},
+      </if>
+      <if test="record.dea != null" >
+        dea = #{record.dea,jdbcType=DOUBLE},
+      </if>
+      <if test="record.macd != null" >
+        macd = #{record.macd,jdbcType=DOUBLE},
+      </if>
+      <if test="record.lotVolume != null" >
+        lot_volume = #{record.lotVolume,jdbcType=INTEGER},
+      </if>
+      <if test="record.timestamp != null" >
+        timestamp = #{record.timestamp,jdbcType=VARCHAR},
+      </if>
+      <if test="record.time != null" >
+        time = #{record.time,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update DayLine
+    set id = #{record.id,jdbcType=INTEGER},
+      stockId = #{record.stockid,jdbcType=VARCHAR},
+      volume = #{record.volume,jdbcType=INTEGER},
+      open = #{record.open,jdbcType=DOUBLE},
+      high = #{record.high,jdbcType=DOUBLE},
+      close = #{record.close,jdbcType=DOUBLE},
+      low = #{record.low,jdbcType=DOUBLE},
+      chg = #{record.chg,jdbcType=DOUBLE},
+      percent = #{record.percent,jdbcType=DOUBLE},
+      turnrate = #{record.turnrate,jdbcType=DOUBLE},
+      ma5 = #{record.ma5,jdbcType=DOUBLE},
+      ma10 = #{record.ma10,jdbcType=DOUBLE},
+      ma20 = #{record.ma20,jdbcType=DOUBLE},
+      ma30 = #{record.ma30,jdbcType=DOUBLE},
+      dif = #{record.dif,jdbcType=DOUBLE},
+      dea = #{record.dea,jdbcType=DOUBLE},
+      macd = #{record.macd,jdbcType=DOUBLE},
+      lot_volume = #{record.lotVolume,jdbcType=INTEGER},
+      timestamp = #{record.timestamp,jdbcType=VARCHAR},
+      time = #{record.time,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.slionh.StockDataXueqiu.model.po.Dayline" >
+    update DayLine
+    <set >
+      <if test="stockid != null" >
+        stockId = #{stockid,jdbcType=VARCHAR},
+      </if>
+      <if test="volume != null" >
+        volume = #{volume,jdbcType=INTEGER},
+      </if>
+      <if test="open != null" >
+        open = #{open,jdbcType=DOUBLE},
+      </if>
+      <if test="high != null" >
+        high = #{high,jdbcType=DOUBLE},
+      </if>
+      <if test="close != null" >
+        close = #{close,jdbcType=DOUBLE},
+      </if>
+      <if test="low != null" >
+        low = #{low,jdbcType=DOUBLE},
+      </if>
+      <if test="chg != null" >
+        chg = #{chg,jdbcType=DOUBLE},
+      </if>
+      <if test="percent != null" >
+        percent = #{percent,jdbcType=DOUBLE},
+      </if>
+      <if test="turnrate != null" >
+        turnrate = #{turnrate,jdbcType=DOUBLE},
+      </if>
+      <if test="ma5 != null" >
+        ma5 = #{ma5,jdbcType=DOUBLE},
+      </if>
+      <if test="ma10 != null" >
+        ma10 = #{ma10,jdbcType=DOUBLE},
+      </if>
+      <if test="ma20 != null" >
+        ma20 = #{ma20,jdbcType=DOUBLE},
+      </if>
+      <if test="ma30 != null" >
+        ma30 = #{ma30,jdbcType=DOUBLE},
+      </if>
+      <if test="dif != null" >
+        dif = #{dif,jdbcType=DOUBLE},
+      </if>
+      <if test="dea != null" >
+        dea = #{dea,jdbcType=DOUBLE},
+      </if>
+      <if test="macd != null" >
+        macd = #{macd,jdbcType=DOUBLE},
+      </if>
+      <if test="lotVolume != null" >
+        lot_volume = #{lotVolume,jdbcType=INTEGER},
+      </if>
+      <if test="timestamp != null" >
+        timestamp = #{timestamp,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null" >
+        time = #{time,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.slionh.StockDataXueqiu.model.po.Dayline" >
+    update DayLine
+    set stockId = #{stockid,jdbcType=VARCHAR},
+      volume = #{volume,jdbcType=INTEGER},
+      open = #{open,jdbcType=DOUBLE},
+      high = #{high,jdbcType=DOUBLE},
+      close = #{close,jdbcType=DOUBLE},
+      low = #{low,jdbcType=DOUBLE},
+      chg = #{chg,jdbcType=DOUBLE},
+      percent = #{percent,jdbcType=DOUBLE},
+      turnrate = #{turnrate,jdbcType=DOUBLE},
+      ma5 = #{ma5,jdbcType=DOUBLE},
+      ma10 = #{ma10,jdbcType=DOUBLE},
+      ma20 = #{ma20,jdbcType=DOUBLE},
+      ma30 = #{ma30,jdbcType=DOUBLE},
+      dif = #{dif,jdbcType=DOUBLE},
+      dea = #{dea,jdbcType=DOUBLE},
+      macd = #{macd,jdbcType=DOUBLE},
+      lot_volume = #{lotVolume,jdbcType=INTEGER},
+      timestamp = #{timestamp,jdbcType=VARCHAR},
+      time = #{time,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,53 +1,60 @@
-package com.slionh.StockDataXueqiu;
+package com.slionh.StockDataXueqiu.model.po;
 
-/*
- * Create by s lion h on 2018/7/2
- */
-public class DataPo {
+public class Dayline {
+    private Integer id;
+
+    private String stockid;
+
     private Integer volume;
-    private Double open;
-    private Double high;
-    private Double close;
-    private Double low;
-    private Double chg;
-    private Double percent;
-    private Double turnrate;
-    private Double ma5;
-    private Double ma10;
-    private Double ma20;
-    private Double ma30;
-    private Double dif;
-    private Double dea;
-    private Double macd;
-    private Integer lot_volume;
-    private String timestamp;
-    private String time;
-    private String stockId;
 
-    public DataPo(Integer volume, Double open, Double high, Double close,
-                  Double low, Double chg, Double percent, Double turnrate,
-                  Double ma5, Double ma10, Double ma20, Double ma30,
-                  Double dif, Double dea, Double macd,
-                  Integer lot_volume, String timestamp, String time, String stockId) {
-        this.volume = volume;
-        this.open = open;
-        this.high = high;
-        this.close = close;
-        this.low = low;
-        this.chg = chg;
-        this.percent = percent;
-        this.turnrate = turnrate;
-        this.ma5 = ma5;
-        this.ma10 = ma10;
-        this.ma20 = ma20;
-        this.ma30 = ma30;
-        this.dif = dif;
-        this.dea = dea;
-        this.macd = macd;
-        this.lot_volume = lot_volume;
-        this.timestamp = timestamp;
-        this.time = time;
-        this.stockId = stockId;
+    private Double open;
+
+    private Double high;
+
+    private Double close;
+
+    private Double low;
+
+    private Double chg;
+
+    private Double percent;
+
+    private Double turnrate;
+
+    private Double ma5;
+
+    private Double ma10;
+
+    private Double ma20;
+
+    private Double ma30;
+
+    private Double dif;
+
+    private Double dea;
+
+    private Double macd;
+
+    private Integer lotVolume;
+
+    private String timestamp;
+
+    private String time;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getStockid() {
+        return stockid;
+    }
+
+    public void setStockid(String stockid) {
+        this.stockid = stockid == null ? null : stockid.trim();
     }
 
     public Integer getVolume() {
@@ -170,12 +177,12 @@ public class DataPo {
         this.macd = macd;
     }
 
-    public Integer getLot_volume() {
-        return lot_volume;
+    public Integer getLotVolume() {
+        return lotVolume;
     }
 
-    public void setLot_volume(Integer lot_volume) {
-        this.lot_volume = lot_volume;
+    public void setLotVolume(Integer lotVolume) {
+        this.lotVolume = lotVolume;
     }
 
     public String getTimestamp() {
@@ -183,7 +190,7 @@ public class DataPo {
     }
 
     public void setTimestamp(String timestamp) {
-        this.timestamp = timestamp;
+        this.timestamp = timestamp == null ? null : timestamp.trim();
     }
 
     public String getTime() {
@@ -191,21 +198,15 @@ public class DataPo {
     }
 
     public void setTime(String time) {
-        this.time = time;
-    }
-
-    public String getStockId() {
-        return stockId;
-    }
-
-    public void setStockId(String stockId) {
-        this.stockId = stockId;
+        this.time = time == null ? null : time.trim();
     }
 
     @Override
     public String toString() {
-        return "DataPo{" +
-                "volume=" + volume +
+        return "Dayline{" +
+                "id=" + id +
+                ", stockid='" + stockid + '\'' +
+                ", volume=" + volume +
                 ", open=" + open +
                 ", high=" + high +
                 ", close=" + close +
@@ -220,10 +221,9 @@ public class DataPo {
                 ", dif=" + dif +
                 ", dea=" + dea +
                 ", macd=" + macd +
-                ", lot_volume=" + lot_volume +
+                ", lotVolume=" + lotVolume +
                 ", timestamp='" + timestamp + '\'' +
                 ", time='" + time + '\'' +
-                ", stockId='" + stockId + '\'' +
                 '}';
     }
 }
